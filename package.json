@@ -1,0 +1,26 @@
+{
+  "name": "caixaeletronico",
+  "version": "1.0.0",
+  "description": "dojopuzzles problem",
+  "main": "server.js",
+  "dependencies": {
+    "jest": "^22.4.2"
+  },
+  "devDependencies": {
+    "jest": "^22.4.2"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariCampos/caixaeletronico.git"
+  },
+  "author": "Mari Campos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariCampos/caixaeletronico/issues"
+  },
+  "homepage": "https://github.com/mariCampos/caixaeletronico#readme"
+}
