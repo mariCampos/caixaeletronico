@@ -1,4 +1,5 @@
 const saque = require('./saque');
+const view = require('./view');
 const readline = require('readline');
 
 const rl = readline.createInterface({
@@ -8,7 +9,8 @@ const rl = readline.createInterface({
   
   rl.question('Valor do saque: ', (answer) => {
     // TODO: Log the answer in a database
-    var quantidade = saque.sacar(Number(answer));
-    console.log(saque.formataTexto(quantidade));
+    var resposta = answer.replace(',', '.');
+    var quantidade = saque.sacar(Number(resposta));
+    console.log(view.formataTexto(quantidade));
     rl.close();
   });
